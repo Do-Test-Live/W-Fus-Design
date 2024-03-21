@@ -18,3 +18,35 @@
 .nav-link:hover{
     color: black;
 }
+
+.nav{
+    margin-right: 10.5rem
+}
+
+@media only screen and (max-width: 550px) {
+    /* This media query applies the following styles only when the screen width is 764px or less */
+
+    .fs-nav {
+        position: absolute;
+        margin-top: 1.25rem;
+        z-index: 5;
+        right: 0;
+    }
+    /* This class sets the positioning and alignment of the navigation */
+
+    .nav-link {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+        border-bottom: 2px solid black;
+        margin-right: 2rem;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+    }
+    /* This class styles the links within the navigation */
+
+    .nav {
+        margin-right: 2.5rem;
+    }
+    /* This class adjusts the margin of the navigation */
+}
